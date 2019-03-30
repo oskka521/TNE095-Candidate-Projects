@@ -1,0 +1,23 @@
+The code has a main function that contains very little code, and only refers to other functions to make it as easy to read as possible.
+
+Code structure:
+
+1) Declaration of libraries
+
+2) the creation of global variables
+
+3) void setup: adds the correct PIN and prepares everything, such as addressing
+
+4) main loop: 4.1 creates communication, 4.2 gets commands, 4.3 drives to scanned QR code, 4.4 before turns to the right commands
+
+5) Functions: 5.1 functions of turns -> swing, straight ahead, left, right.
+
+6) functions: follower path, read QR code, Tick means that it counts on the wheel -> distance
+
+7) Features: reads ToF sensors
+
+8) Features: Bluetooth
+
+9) Features: Swing conditions, with PWM
+
+10) Features: reads light sensor and checks battery level
