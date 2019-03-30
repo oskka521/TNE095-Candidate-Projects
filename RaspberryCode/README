@@ -1,0 +1,23 @@
+READ ME
+
+The code is available in Final.py
+
+The code is used by OpenCv and Aruco, note that other libraries are imported at the top of the code.
+
+Structure code:
+
+1) Import of library
+
+2) function declaration, I2C, Uart and Trackbar
+
+3) start up the camera
+
+4) the main loop, where the camera is located
+
+5) Check for Aruco code
+
+6) matrix manipulation to measure distance
+
+7) distinguishes between vehicle nodes and wall nodes
+
+8) If arguments are met send Aruco's ID using the function Uart
